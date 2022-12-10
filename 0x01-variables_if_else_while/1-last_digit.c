@@ -6,7 +6,8 @@
 
 /**
  *  main - Entry point
- *  Description: Print the last five digit of a number stored in a variablet, compare it with 5
+ *  Description: Get last digit of a number storde
+ *  and compare it with 5
  *  Return: Always 0 (success)
 */
 
