@@ -5,6 +5,7 @@
  * @n1: first number input
  * @n2: second number input
  *
+ * Return: The result
  */
 
 int add(int n1, int n2)
