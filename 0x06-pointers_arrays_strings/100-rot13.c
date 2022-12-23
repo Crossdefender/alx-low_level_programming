@@ -26,6 +26,7 @@ char *rot13(char *str)
 		
 		indx1++;
 
-	}	
+	}
+
 	return (str);
 }
