@@ -6,9 +6,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
  *_memset - fills the first n byte of the memory area
- *          pointer to by @s with the constant byte @c.
+ * pointer to by @s with the constant byte @c.
  * @s: pointer to put the constant
  * @c: constant
  * @n: max bytes to be filled
@@ -16,6 +15,8 @@
  * Return: s
  */
 
+int main()
+{
 void *_memset(void *s, int c, size_t n)
 {
 	unsigned int index;
@@ -25,4 +26,5 @@ void *_memset(void *s, int c, size_t n)
 		memory[index] = value;
 
 	return (memory);
+}
 }
