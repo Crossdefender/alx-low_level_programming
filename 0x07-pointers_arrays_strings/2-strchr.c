@@ -8,7 +8,6 @@
  * Return: Always 0 (Success)
  */
 
-int main(){
 char *_strchr(char *s, char c)
 {
 	int i;
@@ -19,6 +18,6 @@ char *_strchr(char *s, char c)
 			return (s + i);
 	}
 
-	return (NULL)
+	return (NULL);
 }
-}
+
