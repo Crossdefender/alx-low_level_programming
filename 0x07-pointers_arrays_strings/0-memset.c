@@ -1,31 +1,17 @@
-/*
- * File: 0-memset.c
- * Auth: not
- */
-
 #include "main.h"
 
-/** 
- * _memset - fills the first n byte of the memory area
- * pointer to by @s with the constant byte @c.
- * @s: pointer to put the constant
- * @c: constant
- * @n: max bytes to be filled
- * description _memset: over there
- * Return: s
+/**
+ * _memset - Entry point
+ * @s: pointed destination
+ * @b: constant byte
+ * @n: bytes
+ * Return: Always 0 (Success)
  */
-
-int main(void)
+char *_memset(char *s, char b, unsigned int n)
 {
-void *_memset(void *s, int c, size_t n)
-	{
-	unsigned int index;
-	unsigned char *memory = s, value = c;
+	unsigned int i;
 
-	for (index = 0; index < n; index++)
-		memory[index] = value;
-
-	return (memory);
-	}
-	return (0);
+	for (i = 0; i < n; i++)
+		s[i] = b;
+	return (s);
 }
