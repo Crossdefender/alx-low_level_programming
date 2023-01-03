@@ -15,10 +15,10 @@
  * Return: s
  */
 
-int main()
+int main(void)
 {
 void *_memset(void *s, int c, size_t n)
-{
+	{
 	unsigned int index;
 	unsigned char *memory = s, value = c;
 
@@ -26,5 +26,6 @@ void *_memset(void *s, int c, size_t n)
 		memory[index] = value;
 
 	return (memory);
-}
+	}
+	return (0);
 }
