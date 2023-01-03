@@ -6,8 +6,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *_memset - fills the first n byte of the memory area
+ * main - Entry point 
+ * _memset - fills the first n byte of the memory area
  * pointer to by @s with the constant byte @c.
  * @s: pointer to put the constant
  * @c: constant
