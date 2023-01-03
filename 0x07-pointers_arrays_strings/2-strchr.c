@@ -7,6 +7,8 @@
  * @c: input
  * Return: Always 0 (Success)
  */
+
+int main(){
 char *_strchr(char *s, char c)
 {
 	int i;
@@ -18,4 +20,5 @@ char *_strchr(char *s, char c)
 	}
 
 	return (NULL)
+}
 }
