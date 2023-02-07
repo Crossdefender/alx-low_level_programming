@@ -1,1 +1,1 @@
-singly link lists
+sinly linked lists
