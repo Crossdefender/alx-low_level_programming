@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
 int _islower(int c);
@@ -26,4 +26,5 @@ int add(int a, int b);
 int div(int a, int b);
 int sub(int a, int b);
 int mod(int a, int b);
-#endif
+
+#endif /* _MAIN_H_ */
